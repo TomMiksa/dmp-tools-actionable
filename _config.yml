@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+title: Making DMP Tools Actionable
+description: As part of Data Stewardship 2019 lecture this tools allows to extract machine-actionable DMPs (maDMPs) from RDMO, a popular tool for managing DMPs
+show_downloads: true
+logo: logo.png
