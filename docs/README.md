@@ -31,6 +31,21 @@ Due to this architecture, this tool is mapping the attributes to output fields i
 RDA DMP Common Standard JSON format.
 The mapping of fields is fully described in [field mapping](field_mapping.md).
 
+Some examples of the mapping:
+
+* DMP 1 - [FWF Template](samples/fwf-gerald.pdf) (PDF)
+* DMP 1 - [RDMO Export](samples/fwf-gerald.xml) (XML)
+* DMP 1 - [RDA DMP Common Standard](samples/fwf-gerald.json) (JSON)
+* DMP 2 - [Horizon 2020 Template](samples/h2020-gerald.pdf) (PDF)
+* DMP 2 - [RDMO Export](samples/h2020-gerald.xml) (XML)
+* DMP 2 - [RDA DMP Common Standard](samples/h2020-gerald.json) (JSON)
+* DMP 3 - [FWF Template](samples/fwf-helmuth.pdf) (PDF)
+* DMP 3 - [RDMO Export](samples/fwf-helmuth.xml) (XML)
+* DMP 3 - [RDA DMP Common Standard](samples/fwf-helmuth.json) (JSON)
+* DMP 4 - [Horizon 2020 Template](samples/h2020-helmuth.pdf) (PDF)
+* DMP 4 - [RDMO Export](samples/h2020-helmuth.xml) (XML)
+* DMP 4 - [RDA DMP Common Standard](samples/h2020-helmuth.json) (JSON)
+
 ## Installation
 
 This is a command-line based tool which is written in Python.

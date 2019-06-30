@@ -1,0 +1,861 @@
+<?xml version="1.0" ?>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<title>h2020-gerald</title>
+	<description/>
+	<catalog dc:uri="https://rdmo.helmuth.at/questions/Horizon2020"/>
+	<values>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>none</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T13:30:39.698921+02:00</created>
+			<updated>2019-06-30T13:30:39.698927+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/requirements"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>none</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:26:23.959821+02:00</created>
+			<updated>2019-06-30T18:18:40.201972+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/yesno"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T16:26:23.958093+02:00</created>
+			<updated>2019-06-30T18:18:40.201147+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination/name"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Retrieval and storage of the dataset is done by Gerald Weber. The author of the research (Gerald Weber) is responsible for checking the availability of the dataset twice a year (latest 31.1. &amp; 31.7. of each year) and take action to restore the availability in case of problems.</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:49:02.194357+02:00</created>
+			<updated>2019-06-30T13:25:54.182023+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination/name"/>
+			<set_index>0</set_index>
+			<collection_index>1</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T12:02:18.018431+02:00</created>
+			<updated>2019-06-30T13:25:54.178269+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>no additional costs. The data is findable, openly accessable via Zendoo as well as interoperable and reusable by well known data format and generous public domain licence.</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:49:16.184454+02:00</created>
+			<updated>2019-06-30T13:25:54.169511+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/metadata/non_personnel"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0 Euro</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:14:56.958147+02:00</created>
+			<updated>2019-06-30T18:17:55.015054+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/metadata/personnel"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0 Euro</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:14:56.957701+02:00</created>
+			<updated>2019-06-30T18:17:55.011397+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/preservation"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>No additional expertise is required. Infrastructure for storage is provided by external providers. Their availability will be checked by the author twice per year.</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:49:16.185144+02:00</created>
+			<updated>2019-06-30T13:25:54.186128+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/preservation/cover_how"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>-</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:14:56.960690+02:00</created>
+			<updated>2019-06-30T18:17:54.994963+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/preservation/non_personnel"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0 Euro</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:14:56.976504+02:00</created>
+			<updated>2019-06-30T18:17:55.021917+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/preservation/personnel"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0 Euro</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:14:56.971774+02:00</created>
+			<updated>2019-06-30T18:17:55.004336+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Seattle Department of Transportation</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:42:48.521834+02:00</created>
+			<updated>2019-06-30T18:16:15.654381+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_publication_date"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>2019-07-01T00:00:00+02:00</text>
+			<option/>
+			<value_type>datetime</value_type>
+			<unit/>
+			<created>2019-06-30T16:13:36.477907+02:00</created>
+			<updated>2019-06-30T18:17:44.977951+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/access_permissions"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>no sensitive data included</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T18:18:05.822021+02:00</created>
+			<updated>2019-06-30T18:18:05.822027+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/security_measures"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>not required, open access</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:49:04.631062+02:00</created>
+			<updated>2019-06-30T18:17:20.670456+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/format"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>CSV</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:42:48.507321+02:00</created>
+			<updated>2019-06-30T18:16:15.585716+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Fremont Bridge Data</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:42:48.519016+02:00</created>
+			<updated>2019-06-30T15:42:48.519022+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/interoperability"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>1</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T16:11:39.866619+02:00</created>
+			<updated>2019-06-30T18:17:37.207548+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata/creation_automatic"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/metadata_standards/110"/>
+			<value_type>option</value_type>
+			<unit/>
+			<created>2019-06-30T15:47:30.685522+02:00</created>
+			<updated>2019-06-30T18:16:21.170042+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata/mappings"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T16:11:39.869218+02:00</created>
+			<updated>2019-06-30T18:17:37.230393+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata/standards"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>None</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:11:39.853232+02:00</created>
+			<updated>2019-06-30T18:17:37.210197+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/origin"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>For this analysis, the data is retrieved only once by download link on the Seattle open data platform.
+https://data.seattle.gov/Transportation/Fremont-Bridge-Hourly-Bicycle-Counts-by-Month-Octo/65db-xm6k
+The name is provided by the platform: Fremont_Bridge_Hourly_Bicycle_Counts_by_Month_October_2012_to_present.csv
+The name does not contain any information about the retrieval time.
+Data was last updated on April 2, 2019 and provided by Seattle Department of Transportation. There is no exact information about update interval (update frequency: other).</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:42:48.521145+02:00</created>
+			<updated>2019-06-30T18:16:15.630540+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/pids/system"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>https://doi.org/10.5281/zenodo.2648564</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:47:30.679927+02:00</created>
+			<updated>2019-06-30T18:16:21.145191+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/pids/yesno"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>1</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T15:47:30.680148+02:00</created>
+			<updated>2019-06-30T18:16:21.137932+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/certification"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>1</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T15:49:04.623207+02:00</created>
+			<updated>2019-06-30T18:17:20.676707+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/duration"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>infinite</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:13:36.483567+02:00</created>
+			<updated>2019-06-30T18:17:44.981290+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>via zenodo repository</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:49:04.616330+02:00</created>
+			<updated>2019-06-30T18:17:20.648922+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
+			<set_index>0</set_index>
+			<collection_index>1</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:49:04.614471+02:00</created>
+			<updated>2019-06-30T18:17:20.666339+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository_arrangements"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>No</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:49:04.622605+02:00</created>
+			<updated>2019-06-30T18:17:20.659415+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Everyone interested in analyzing bycicle usage patterns of the Fremont Bridge</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:42:48.519799+02:00</created>
+			<updated>2019-06-30T18:17:44.981824+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other/description"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>none</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:26:07.848629+02:00</created>
+			<updated>2019-06-30T18:18:14.656479+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other/yesno"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T16:26:07.818268+02:00</created>
+			<updated>2019-06-30T18:18:14.600935+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data/consent/extent"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T16:26:07.902207+02:00</created>
+			<updated>2019-06-30T18:18:14.745474+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data_yesno"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T16:26:07.875241+02:00</created>
+			<updated>2019-06-30T18:18:14.703877+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/conditions"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>public domain</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:13:36.396645+02:00</created>
+			<updated>2019-06-30T18:17:44.976753+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/yesno"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>1</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T15:49:04.603954+02:00</created>
+			<updated>2019-06-30T18:17:20.654052+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size/volume"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0.0001597</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:42:48.526893+02:00</created>
+			<updated>2019-06-30T18:16:15.681483+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/software_documentation"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Yes, software openly available</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:49:04.623940+02:00</created>
+			<updated>2019-06-30T18:17:20.665440+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/storage/naming_policy"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>none</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:47:30.684370+02:00</created>
+			<updated>2019-06-30T18:16:21.142775+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_description"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Analyse bycicle usage patterns of Fremont East/West bridge</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:42:48.514626+02:00</created>
+			<updated>2019-06-30T18:16:15.539241+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_technology"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Browser</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:49:04.608427+02:00</created>
+			<updated>2019-06-30T18:17:20.658327+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/versioning_strategy"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>none</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:47:30.685080+02:00</created>
+			<updated>2019-06-30T18:16:21.150953+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T18:16:59.230264+02:00</created>
+			<updated>2019-06-30T18:16:59.230274+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T15:49:04.631879+02:00</created>
+			<updated>2019-06-30T16:00:40.976856+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T18:17:20.675457+02:00</created>
+			<updated>2019-06-30T18:17:20.675464+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T16:07:36.853535+02:00</created>
+			<updated>2019-06-30T16:07:40.108239+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T16:10:45.156914+02:00</created>
+			<updated>2019-06-30T16:10:49.943533+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T16:02:15.153672+02:00</created>
+			<updated>2019-06-30T16:02:18.650927+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T16:07:36.885579+02:00</created>
+			<updated>2019-06-30T16:07:40.132794+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T16:10:45.190839+02:00</created>
+			<updated>2019-06-30T16:10:50.062630+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T16:02:15.154274+02:00</created>
+			<updated>2019-06-30T16:02:18.704766+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/ethics_committee"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>no</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:49:25.590184+02:00</created>
+			<updated>2019-06-30T13:30:31.322593+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/contact_person/name"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Gerald Weber</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:14:56.967638+02:00</created>
+			<updated>2019-06-30T18:17:55.007598+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/contact_person/name"/>
+			<set_index>0</set_index>
+			<collection_index>1</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:14:56.970483+02:00</created>
+			<updated>2019-06-30T18:17:54.996600+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/preservation/responsible_person/name"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Zenodo</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:14:56.969230+02:00</created>
+			<updated>2019-06-30T18:17:55.021151+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:15:32.916895+02:00</created>
+			<updated>2019-06-29T11:15:32.916901+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:15:46.500257+02:00</created>
+			<updated>2019-06-29T11:15:46.500271+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:15:46.325373+02:00</created>
+			<updated>2019-06-29T11:15:46.325379+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:15:42.506330+02:00</created>
+			<updated>2019-06-29T11:15:42.506343+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:15:42.335212+02:00</created>
+			<updated>2019-06-29T11:15:42.335220+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:15:42.209853+02:00</created>
+			<updated>2019-06-29T11:15:42.209869+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:15:42.016028+02:00</created>
+			<updated>2019-06-29T11:15:42.016034+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:15:41.476447+02:00</created>
+			<updated>2019-06-29T11:15:41.476453+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:15:35.128591+02:00</created>
+			<updated>2019-06-29T11:15:35.128597+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Count the bicycles passing the Fremont bridge for usage analysis</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T12:02:17.909799+02:00</created>
+			<updated>2019-06-29T12:02:17.909805+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:49:02.025478+02:00</created>
+			<updated>2019-06-29T11:49:02.025485+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:15:46.810190+02:00</created>
+			<updated>2019-06-29T11:15:46.810210+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-29T11:15:46.666327+02:00</created>
+			<updated>2019-06-29T11:15:46.666339+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Fremont Bridge Data</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:06:57.393385+02:00</created>
+			<updated>2019-06-30T16:07:01.025572+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T18:16:21.146367+02:00</created>
+			<updated>2019-06-30T18:16:21.146374+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:56:27.192456+02:00</created>
+			<updated>2019-06-30T15:56:27.192462+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:58:33.214230+02:00</created>
+			<updated>2019-06-30T15:58:52.308061+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Fremont Bridge Bycicle</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:47:30.678351+02:00</created>
+			<updated>2019-06-30T15:47:30.678359+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:56:27.186395+02:00</created>
+			<updated>2019-06-30T15:56:27.186401+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:06:57.424106+02:00</created>
+			<updated>2019-06-30T16:07:01.035598+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T15:58:33.243831+02:00</created>
+			<updated>2019-06-30T15:58:52.315849+02:00</updated>
+		</value>
+	</values>
+	<created>2019-06-29T11:15:22.720911+02:00</created>
+	<updated>2019-06-30T13:33:49.418145+02:00</updated>
+</project>

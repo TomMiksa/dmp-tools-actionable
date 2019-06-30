@@ -1,0 +1,49 @@
+{
+    "title": "h2020-gerald",
+    "language": "en",
+    "created": "2019-06-29T11:15:22.720911+02:00",
+    "modified": "2019-06-30T18:18:40.201972+02:00",
+    "ethical_issues_exist": "unknown",
+    "contact": {
+        "name": "Retrieval and storage of the dataset is done by Gerald Weber. The author of the research (Gerald Weber) is responsible for checking the availability of the dataset twice a year (latest 31.1. & 31.7. of each year) and take action to restore the availability in case of problems.",
+        "mbox": ""
+    },
+    "cost": [
+        {
+            "title": "",
+            "cost_value": "no additional costs. The data is findable, openly accessable via Zendoo as well as interoperable and reusable by well known data format and generous public domain licence."
+        },
+        {
+            "title": "ation",
+            "cost_value": "No additional expertise is required. Infrastructure for storage is provided by external providers. Their availability will be checked by the author twice per year."
+        },
+        {
+            "title": "ation/cover_how",
+            "cost_value": "-"
+        }
+    ],
+    "dataset": [
+        {
+            "title": "Fremont Bridge Data",
+            "type": "CSV",
+            "personal_data": "unknown",
+            "sensitive_data": "unknown",
+            "distribution": {
+                "title": "Fremont Bridge Data",
+                "license": [],
+                "description": "Sharing Conditions: public domain\nVersioning Strategy: none\nReuse: Everyone interested in analyzing bycicle usage patterns of the Fremont Bridge",
+                "byte_size": 159700
+            },
+            "security": [
+                {
+                    "title": "People with access right",
+                    "description": "no sensitive data included"
+                },
+                {
+                    "title": "Provisions in Place for Data Security",
+                    "description": "not required, open access"
+                }
+            ]
+        }
+    ]
+}
