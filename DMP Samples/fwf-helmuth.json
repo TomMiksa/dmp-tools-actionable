@@ -1,0 +1,69 @@
+{
+    "title": "fwf-helmuth",
+    "description": "Comparison of US wheat yield with middle-aged marriages in Salzburg",
+    "language": "en",
+    "created": "2019-06-30T13:33:30.281009+02:00",
+    "modified": "2019-06-30T17:36:20.858994+02:00",
+    "ethical_issues_exist": "unknown",
+    "contact": {
+        "name": "Helmuth Breitenfellner",
+        "mbox": "e08725866@student.tuwien.ac.at"
+    },
+    "dataset": [
+        {
+            "title": "Salzburg middle-aged marriages",
+            "type": "CSV",
+            "personal_data": "unknown",
+            "sensitive_data": "unknown",
+            "data_quality_assurance": "Zenodo as read only repository guarantees, that no further changes will occur to the dataset and the processing algorithms.\nQuality and Consistency of the collected data cannot be further investigated, as only re-use the data from Land Salzburg and US Argricultural Department, which do not specify how their data is collected and quality assured.",
+            "distribution": {
+                "title": "Salzburg middle-aged marriages",
+                "license": [
+                    {
+                        "license_ref": "CC-BY-3",
+                        "start_date": "2019-07-01T00:00:00+02:00"
+                    }
+                ],
+                "description": "Sharing Conditions: Data will be available via Zenodo without any limitations\nVersioning Strategy: no versioning\nReuse: Everyone interested in marriage patterns of Salzburg citizens\nStructure: number of husbands and wives, per age group within a given year, husbands had to be registered in Salzburg\nNumber of Files: 1",
+                "byte_size": 19600
+            },
+            "description": "structured relational data\nInteroperability: no\nCreation methods: Land Salzburg registers all marriages in its area\nMetadata: CSV file will be acessable, interoperable and re-usable for a long time, Findability is guaranteed by Zenodo."
+        },
+        {
+            "title": "US wheat yield",
+            "type": "XLS",
+            "personal_data": "unknown",
+            "sensitive_data": "unknown",
+            "distribution": {
+                "title": "US wheat yield",
+                "license": [
+                    {
+                        "license_ref": "CC0",
+                        "start_date": "2019-07-01T00:00:00+02:00"
+                    }
+                ],
+                "description": "Sharing Conditions: Data will be available via Zenodo without any limitations\nVersioning Strategy: no versioning\nReuse: Everyone interested in US wheat output\nStructure: acres used, yearly production, yield (production per acre) for wheat per year in the US\nNumber of Files: 1",
+                "byte_size": 1240000
+            },
+            "description": "structured relational data\nCreation methods: US Department of Agriculture, collects this data by counting and summing the farmers data nationwide.\nMetadata: Acessability, interoperability and re-usability is limited since the use of XLS file format. Findability is guaranteed by Zenodo."
+        },
+        {
+            "title": "Combined",
+            "type": "CSV",
+            "personal_data": "unknown",
+            "sensitive_data": "unknown",
+            "distribution": {
+                "title": "Combined",
+                "license": [
+                    {
+                        "license_ref": "CC-BY-3",
+                        "start_date": "2019-07-01T00:00:00+02:00"
+                    }
+                ],
+                "description": "Sharing Conditions: Data will be available via Zenodo without any limitations\nVersioning Strategy: no versioning\nReuse: Everyone interested in correlation between Salzburg middle-age marriages and US wheat yield\nStructure: Dataset contains year, number of spouses, gender, a_p (acres planted), a_h (acres harvested), production, yield, p (pearson correlation)\nNumber of Files: 1",
+                "byte_size": 6000
+            },
+            "description": "structured relational data\nCreation methods: processed combination of \"Salzburg middle-aged marriages\" dataset and \"US wheat yield\" dataset\nMetadata: CSV file will be acessable, interoperable and re-usable for a long time, Findability is guaranteed by Zenodo."
+        }
+    ]
+}
