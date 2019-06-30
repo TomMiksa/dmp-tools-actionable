@@ -10,7 +10,7 @@ Set Up Instance of RDMO
 
 We have been setting up an instance of RDMO on a virtualized
 environment, using Docker. The installation can be used at
-[rdmo.helmuth.at/](https://rdmo.helmuth.at).
+[rdmo.helmuth.at](https://rdmo.helmuth.at).
 
 For this part of the exercise we have been using the docker-compose
 version of RDMO as available on
@@ -80,12 +80,40 @@ Some of the questions from Horizon 2020 do not clearly map to attributes
 in the RDMO data model. We were using guidelines from the existing
 Horizon 2020 view which performs the mapping into the other direction.
 
+### Fermont Bridge DMP
+
+-   [Horizon 2020 PDF
+    version](https://github.com/helmuthb/dmp-tools-actionable/blob/master/DMP%20Samples/h2020-gerald.pdf)
+-   [RDA DMP Common Standard JSON
+    version](https://github.com/helmuthb/dmp-tools-actionable/blob/master/DMP%20Samples/h2020-gerald.json)
+
+### Salzburg - US Wheat DMP
+
+-   [Horizon 2020 PDF
+    version](https://github.com/helmuthb/dmp-tools-actionable/blob/master/DMP%20Samples/h2020-helmuth.pdf)
+-   [RDA DMP Common Standard JSON
+    version](https://github.com/helmuthb/dmp-tools-actionable/blob/master/DMP%20Samples/h2020-helmuth.json)
+
 Map FWF template to RDA DMP Common Standard
 -------------------------------------------
 
 Similar issues as in the case of Horizon 2020 were encountered. In
 addition, we did not cater for the last case when no data is processed,
 as a DMP is then not needed at all.
+
+### Fermont Bridge DMP
+
+-   [FWF PDF
+    version](https://github.com/helmuthb/dmp-tools-actionable/blob/master/DMP%20Samples/fwf-gerald.pdf)
+-   [RDA DMP Common Standard JSON
+    version](https://github.com/helmuthb/dmp-tools-actionable/blob/master/DMP%20Samples/fwf-gerald.json)
+
+### Salzburg - US Wheat DMP
+
+-   [FWF PDF
+    version](https://github.com/helmuthb/dmp-tools-actionable/blob/master/DMP%20Samples/fwf-helmuth.pdf)
+-   [RDA DMP Common Standard JSON
+    version](https://github.com/helmuthb/dmp-tools-actionable/blob/master/DMP%20Samples/fwf-helmuth.json)
 
 Field Mapping from RDMO to RDA DMP Common Standard
 ==================================================
