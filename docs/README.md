@@ -60,7 +60,7 @@ To install the tool, the following steps are required:
 
 ### Download the Script
 
-It is sufficient to download the script `xml2madmp.py`.
+It is sufficient to download the script [`xml2madmp.py`](https://github.com/helmuthb/dmp-tools-actionable/blob/master/xml2madmp.py).
 No further files are needed.
 
 ### Install Prerequisites
