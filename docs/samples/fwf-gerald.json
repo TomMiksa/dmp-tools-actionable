@@ -1,0 +1,32 @@
+{
+    "title": "fwf-gerald",
+    "language": "en",
+    "created": "2019-06-29T11:16:12.127250+02:00",
+    "modified": "2019-06-30T16:45:03.457663+02:00",
+    "ethical_issues_exist": "unknown",
+    "contact": {
+        "name": "Gerald Weber",
+        "mbox": "e0125535@student.tuwien.ac.at"
+    },
+    "dataset": [
+        {
+            "title": "Fremont Bridge Data",
+            "type": "CSV",
+            "personal_data": "unknown",
+            "sensitive_data": "unknown",
+            "data_quality_assurance": "Hash value of the data is provided to identify further changes.",
+            "distribution": {
+                "title": "Fremont Bridge Data",
+                "license": [
+                    {
+                        "license_ref": "public domain",
+                        "start_date": "2019-07-01T00:00:00+02:00"
+                    }
+                ],
+                "description": "Sharing Conditions: Via Zenodo\nKeine Bedingungen\nVersioning Strategy: The data provided will not change, therefore no versioning is applied.\nReuse: Everyone interested in the usage patterns of Fremont Bridge.\nStructure: The contained columns are Date/Time, East pathway count and west pathway count.\nNumber of Files: 1",
+                "byte_size": 1597000
+            },
+            "description": "structured relational data, 56.9K rows, 3 columns\nInteroperability: no\nCreation methods: Data collected by sensor on the Fremont Bridge for the East/West pathway\nMetadata: Data is stored in CSV format allows high interoperability as well as accessibility and re-use.\nStorage on Zenodo provides easy findability."
+        }
+    ]
+}

@@ -1,0 +1,935 @@
+<?xml version="1.0" ?>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<title>fwf-helmuth</title>
+	<description>Comparison of US wheat yield with middle-aged marriages in Salzburg</description>
+	<catalog dc:uri="https://rdmo.helmuth.at/questions/fwf"/>
+	<values>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination/name"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Helmuth Breitenfellner e08725866@student.tuwien.ac.at</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:47:22.363890+02:00</created>
+			<updated>2019-06-30T17:11:39.792490+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/preservation/non_personnel"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>float</value_type>
+			<unit>EUR</unit>
+			<created>2019-06-30T17:33:09.674862+02:00</created>
+			<updated>2019-06-30T17:34:28.580885+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/preservation/non_personnel"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>float</value_type>
+			<unit>EUR</unit>
+			<created>2019-06-30T17:33:09.714063+02:00</created>
+			<updated>2019-06-30T17:34:28.695111+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/preservation/non_personnel"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>float</value_type>
+			<unit>EUR</unit>
+			<created>2019-06-30T17:33:09.724930+02:00</created>
+			<updated>2019-06-30T17:34:28.676486+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/preservation/personnel"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>float</value_type>
+			<unit>EUR</unit>
+			<created>2019-06-30T17:33:09.676913+02:00</created>
+			<updated>2019-06-30T17:34:28.595959+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/preservation/personnel"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>float</value_type>
+			<unit>EUR</unit>
+			<created>2019-06-30T17:33:09.715587+02:00</created>
+			<updated>2019-06-30T17:34:28.648507+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/preservation/personnel"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>float</value_type>
+			<unit>EUR</unit>
+			<created>2019-06-30T17:33:09.759732+02:00</created>
+			<updated>2019-06-30T17:34:28.701459+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creation_methods"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Land Salzburg registers all marriages in its area</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:09:05.034460+02:00</created>
+			<updated>2019-06-30T17:15:21.980668+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creation_methods"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>US Department of Agriculture, collects this data by counting and summing the farmers data nationwide.</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:09:05.034578+02:00</created>
+			<updated>2019-06-30T17:15:21.977355+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creation_methods"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>processed combination of &quot;Salzburg middle-aged marriages&quot; dataset and &quot;US wheat yield&quot; dataset</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:09:17.315179+02:00</created>
+			<updated>2019-06-30T17:15:21.984403+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_publication_date"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>2019-07-01T00:00:00+02:00</text>
+			<option/>
+			<value_type>datetime</value_type>
+			<unit/>
+			<created>2019-06-30T17:31:31.713158+02:00</created>
+			<updated>2019-06-30T17:32:10.792698+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_publication_date"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>2019-07-01T00:00:00+02:00</text>
+			<option/>
+			<value_type>datetime</value_type>
+			<unit/>
+			<created>2019-06-30T17:31:31.714006+02:00</created>
+			<updated>2019-06-30T17:32:10.810686+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_publication_date"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>2019-07-01T00:00:00+02:00</text>
+			<option/>
+			<value_type>datetime</value_type>
+			<unit/>
+			<created>2019-06-30T17:31:31.720521+02:00</created>
+			<updated>2019-06-30T17:32:10.834371+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>structured relational data</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:47:46.853496+02:00</created>
+			<updated>2019-06-30T17:12:07.413073+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>structured relational data</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:48:09.874545+02:00</created>
+			<updated>2019-06-30T17:12:07.695404+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>structured relational data</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:12:08.001312+02:00</created>
+			<updated>2019-06-30T17:12:08.001318+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/format"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>CSV</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:47:46.888695+02:00</created>
+			<updated>2019-06-30T17:12:07.459587+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/format"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>XLS</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:48:09.872498+02:00</created>
+			<updated>2019-06-30T17:12:07.795789+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/format"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>CSV</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:12:08.070148+02:00</created>
+			<updated>2019-06-30T17:12:08.070162+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Salzburg middle-aged marriages</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:47:47.099597+02:00</created>
+			<updated>2019-06-30T16:48:28.858216+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>US wheat yield</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T16:48:09.879265+02:00</created>
+			<updated>2019-06-30T16:48:09.879270+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>Combined</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:09:17.315168+02:00</created>
+			<updated>2019-06-30T17:09:17.315175+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/interoperability"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://73692d464507440440ca40d73d8a91b57f5abd5f/options/yes_no_not_yet_mb/no"/>
+			<value_type>option</value_type>
+			<unit/>
+			<created>2019-06-30T17:26:49.670388+02:00</created>
+			<updated>2019-06-30T17:27:48.770759+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/interoperability"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>option</value_type>
+			<unit/>
+			<created>2019-06-30T17:26:49.676374+02:00</created>
+			<updated>2019-06-30T17:27:48.950032+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/interoperability"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>option</value_type>
+			<unit/>
+			<created>2019-06-30T17:26:49.681723+02:00</created>
+			<updated>2019-06-30T17:27:49.094094+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>CSV file will be acessable, interoperable and re-usable for a long time, Findability is guaranteed by Zenodo.</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:26:49.668657+02:00</created>
+			<updated>2019-06-30T17:27:48.726101+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>Acessability, interoperability and re-usability is limited since the use of XLS file format. Findability is guaranteed by Zenodo.</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:26:49.676996+02:00</created>
+			<updated>2019-06-30T17:27:48.882255+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>CSV file will be acessable, interoperable and re-usable for a long time, Findability is guaranteed by Zenodo.</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:26:49.677734+02:00</created>
+			<updated>2019-06-30T17:27:49.014210+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata/standards"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Dublin Core to describe data source</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:25:03.765742+02:00</created>
+			<updated>2019-06-30T17:25:03.765751+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata/standards"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>Dublin Core to describe data source</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:25:03.766705+02:00</created>
+			<updated>2019-06-30T17:25:03.766711+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata/standards"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>Dublin Core to describe data source</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:25:03.771343+02:00</created>
+			<updated>2019-06-30T17:25:03.771349+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/data_archiving_date"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>2019-07-01T00:00:00+02:00</text>
+			<option/>
+			<value_type>datetime</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.676027+02:00</created>
+			<updated>2019-06-30T17:34:28.613569+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/data_archiving_date"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>2019-07-01T00:00:00+02:00</text>
+			<option/>
+			<value_type>datetime</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.722486+02:00</created>
+			<updated>2019-06-30T17:34:28.705869+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/data_archiving_date"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>2019-07-01T00:00:00+02:00</text>
+			<option/>
+			<value_type>datetime</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.753155+02:00</created>
+			<updated>2019-06-30T17:34:28.684509+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/duration"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>infinite</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.676728+02:00</created>
+			<updated>2019-06-30T17:34:28.627956+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/duration"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>infinite</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.713123+02:00</created>
+			<updated>2019-06-30T17:34:28.639273+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/duration"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>infinite</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.744377+02:00</created>
+			<updated>2019-06-30T17:34:28.694535+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Zenodo</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:31:31.712500+02:00</created>
+			<updated>2019-06-30T17:32:10.763120+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>Zenodo</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:31:31.713574+02:00</created>
+			<updated>2019-06-30T17:32:10.796966+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>Zenodo</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:31:31.720544+02:00</created>
+			<updated>2019-06-30T17:32:10.830212+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository_arrangements"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Long time preservation via Zenodo</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.668379+02:00</created>
+			<updated>2019-06-30T17:34:28.636030+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository_arrangements"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>Zenodo</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.706510+02:00</created>
+			<updated>2019-06-30T17:34:28.618001+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository_arrangements"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>Long time preservation via Zenodo</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.731790+02:00</created>
+			<updated>2019-06-30T17:34:28.717020+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/yesno"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>1</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.658706+02:00</created>
+			<updated>2019-06-30T17:34:28.611339+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/yesno"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>1</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.700950+02:00</created>
+			<updated>2019-06-30T17:34:28.613519+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/yesno"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>1</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.741753+02:00</created>
+			<updated>2019-06-30T17:34:28.694154+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/quality_assurance"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Zenodo as read only repository guarantees, that no further changes will occur to the dataset and the processing algorithms.
+Quality and Consistency of the collected data cannot be further investigated, as only re-use the data from Land Salzburg and US Argricultural Department, which do not specify how their data is collected and quality assured.</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:31:20.230557+02:00</created>
+			<updated>2019-06-30T17:31:20.230563+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Everyone interested in marriage patterns of Salzburg citizens</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:24:19.129742+02:00</created>
+			<updated>2019-06-30T17:24:19.129748+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>Everyone interested in US wheat output</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:24:19.126540+02:00</created>
+			<updated>2019-06-30T17:24:19.126547+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>Everyone interested in correlation between Salzburg middle-age marriages and US wheat yield</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:24:19.130406+02:00</created>
+			<updated>2019-06-30T17:24:19.130411+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other/description"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>No sensitive data included</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:36:10.791910+02:00</created>
+			<updated>2019-06-30T17:36:20.603216+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other/description"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>No sensitive data included</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:36:11.015666+02:00</created>
+			<updated>2019-06-30T17:36:20.610709+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other/description"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>No sensitive data included</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:36:11.204025+02:00</created>
+			<updated>2019-06-30T17:36:20.858994+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other/yesno"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T17:36:10.731140+02:00</created>
+			<updated>2019-06-30T17:36:20.596222+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other/yesno"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T17:36:10.943105+02:00</created>
+			<updated>2019-06-30T17:36:20.610619+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other/yesno"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T17:36:11.135967+02:00</created>
+			<updated>2019-06-30T17:36:20.771698+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data_yesno/yesno"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T17:36:10.639598+02:00</created>
+			<updated>2019-06-30T17:36:20.598663+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data_yesno/yesno"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T17:36:10.858340+02:00</created>
+			<updated>2019-06-30T17:36:20.609879+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data_yesno/yesno"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T17:36:11.076647+02:00</created>
+			<updated>2019-06-30T17:36:20.692937+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/conditions"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Data will be available via Zenodo without any limitations</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:35:34.170498+02:00</created>
+			<updated>2019-06-30T17:35:53.425653+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/conditions"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>Data will be available via Zenodo without any limitations</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:35:34.227543+02:00</created>
+			<updated>2019-06-30T17:35:53.489376+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/conditions"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>Data will be available via Zenodo without any limitations</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:35:34.268104+02:00</created>
+			<updated>2019-06-30T17:35:53.494288+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/restrictions_explanation"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no/no"/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.707910+02:00</created>
+			<updated>2019-06-30T17:34:28.655494+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/restrictions_explanation"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no/no"/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.746383+02:00</created>
+			<updated>2019-06-30T17:34:28.675562+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/restrictions_explanation"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no/no"/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.748386+02:00</created>
+			<updated>2019-06-30T17:34:28.702658+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/sharing_license"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>CC-BY-3</text>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/software_license_options/236"/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:35:34.200605+02:00</created>
+			<updated>2019-06-30T17:35:53.477833+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/sharing_license"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>CC0</text>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/software_license_options/236"/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:35:34.244151+02:00</created>
+			<updated>2019-06-30T17:35:53.444164+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/sharing_license"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>CC-BY-3</text>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/software_license_options/236"/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:35:34.294000+02:00</created>
+			<updated>2019-06-30T17:35:53.445054+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size/number_files"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>1</text>
+			<option/>
+			<value_type>integer</value_type>
+			<unit/>
+			<created>2019-06-30T16:47:46.921305+02:00</created>
+			<updated>2019-06-30T17:12:07.545067+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size/number_files"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>1</text>
+			<option/>
+			<value_type>integer</value_type>
+			<unit/>
+			<created>2019-06-30T16:48:09.878452+02:00</created>
+			<updated>2019-06-30T17:12:07.852400+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size/number_files"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>1</text>
+			<option/>
+			<value_type>integer</value_type>
+			<unit/>
+			<created>2019-06-30T17:12:08.164719+02:00</created>
+			<updated>2019-06-30T17:12:08.164733+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size/volume"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0.0000196</text>
+			<option/>
+			<value_type>float</value_type>
+			<unit>GB</unit>
+			<created>2019-06-30T16:47:46.992787+02:00</created>
+			<updated>2019-06-30T17:12:07.616727+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size/volume"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>0.00124</text>
+			<option/>
+			<value_type>float</value_type>
+			<unit>GB</unit>
+			<created>2019-06-30T16:48:09.873186+02:00</created>
+			<updated>2019-06-30T17:12:07.930921+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size/volume"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>0.000006</text>
+			<option/>
+			<value_type>float</value_type>
+			<unit>GB</unit>
+			<created>2019-06-30T17:12:08.295406+02:00</created>
+			<updated>2019-06-30T17:12:08.295421+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/storage"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Github</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.667078+02:00</created>
+			<updated>2019-06-30T17:34:28.590731+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/storage"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>Github</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.691255+02:00</created>
+			<updated>2019-06-30T17:34:28.659205+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/storage"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>Github</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:33:09.736695+02:00</created>
+			<updated>2019-06-30T17:34:28.678539+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/structure"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>number of husbands and wives, per age group within a given year, husbands had to be registered in Salzburg</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:14:10.299127+02:00</created>
+			<updated>2019-06-30T17:22:46.853031+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/structure"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>acres used, yearly production, yield (production per acre) for wheat per year in the US</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:14:10.299859+02:00</created>
+			<updated>2019-06-30T17:22:46.863395+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/structure"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>Dataset contains year, number of spouses, gender, a_p (acres planted), a_h (acres harvested), production, yield, p (pearson correlation)</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:14:10.304445+02:00</created>
+			<updated>2019-06-30T17:22:46.828722+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/versioning_strategy"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>no versioning</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:14:10.298783+02:00</created>
+			<updated>2019-06-30T17:22:46.854667+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/versioning_strategy"/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>no versioning</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:14:10.300547+02:00</created>
+			<updated>2019-06-30T17:22:46.838042+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/versioning_strategy"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text>no versioning</text>
+			<option/>
+			<value_type>text</value_type>
+			<unit/>
+			<created>2019-06-30T17:14:10.305839+02:00</created>
+			<updated>2019-06-30T17:22:46.855511+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/sensitive_data/other/yesno"/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0</text>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T17:34:38.126869+02:00</created>
+			<updated>2019-06-30T17:34:38.126876+02:00</updated>
+		</value>
+	</values>
+	<created>2019-06-30T13:33:30.281009+02:00</created>
+	<updated>2019-06-30T13:33:30.281023+02:00</updated>
+</project>
