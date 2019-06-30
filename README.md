@@ -22,19 +22,37 @@ Re-created DMP in RDMO
 RDA DMP Export for RDMO
 =======================
 
-We were focusing on the functionality. The UI of the tool is a prototype
-using Jupyter Notebook.
+Approach to Connect with RDMO
+-----------------------------
 
-The export tool is connecting via the API to an RDMO instance. For this
-the user has to provide username and password.
+We were investigating the following possible ways of connecting with an
+RDMO instance:
 
-*Note: Some RDMO instances have apparently disabled the API, e.g.
-[rdmo-demo.uibk.ac.at/](http://rdmo-demo.uibk.ac.at/).*
+-   Database connection
+-   RDMO API
+-   XML export from RDMO
 
-Then the tool is asking the user to select the project they want to
-export. It will then be transformed into a maDMP according to [RDA DMP
-Common
-Standard](https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard).
+Using the database access was considered the last resort, as this would
+be dependend on internal data structures of the tool.
+
+The RDMO API did originally sound very promising. However, we found that
+existing installations often disabled the API (e.g.
+[rdmo-demo.uibk.ac.at/](http://rdmo-demo.uibk.ac.at/)), or the API is
+not accessible for regular users.
+
+We settled on the third option, which is using the XML which can be
+exported from a project in the RDMO user interface. This allows using
+the export tool for regular users, even if the API has been disabled in
+the installation.
+
+Using the Tool
+--------------
+
+The tool is now a simple command line tool. As a precondition, the user
+has to export the project as XML from RDMO. Then the tool can be started
+with
+
+    python3 xml2madmp.py <rdmo-export.xml> <ma-dmp.json>
 
 Mapping existing DMP templates to RDA DMP Common Standard
 =========================================================
