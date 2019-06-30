@@ -180,14 +180,14 @@ def get_security(rdmo, index):
     securities = []
     for key in rdmo:
         title = None
-        if key.startswith('/project/dataset/data_security'):
-            if key == '/project/dataset/data_security/security_measures':
+        if key.startswith('/dataset/data_security'):
+            if key == '/dataset/data_security/security_measures':
                 title = 'Provisions in Place for Data Security'
-            if key == '/project/dataset/data_security/access_permissions':
+            if key == '/dataset/data_security/access_permissions':
                 title = 'People with access right'
-            if key == '/project/dataset/data_security/backups':
+            if key == '/dataset/data_security/backups':
                 title = 'Data Backup'
-            if key == '/project/dataset/data_security/backup_responsible/name':
+            if key == '/dataset/data_security/backup_responsible/name':
                 title = 'Responsible Person for Data Backup'
         vals = None
         if title is not None:
@@ -229,7 +229,7 @@ def get_dataset_entry(rdmo, i):
         dataset['data_quality_assurance'] = dataset_qa
     # for each dataset look for distribution
     sharing_license = get_val(rdmo, '/dataset/sharing/sharing_license', i, 0, 'text')
-    sharing_start_date = get_val(rdmo, '/project/dataset/data_publication_date', i, 0, 'text')
+    sharing_start_date = get_val(rdmo, '/dataset/data_publication_date', i, 0, 'text')
     volume = get_val(rdmo, '/dataset/size/volume', i, 0, 'text')
     dist_desc = distribution_description(rdmo, i)
     if sharing_license or volume or dist_desc:
@@ -260,7 +260,7 @@ def get_costs(rdmo):
 
     costs = []
     for key in rdmo:
-        if key.startswith('/project/costs'):
+        if key.startswith('/costs'):
             cost_type = key.split('/')[-1]
             if cost_type in ['personnel', 'non_personnel']:
                 continue
@@ -291,8 +291,8 @@ def get_ma_dmp(rdmo):
     name, email = name_email(get_val(rdmo, '/coordination/name', 0, 0, 'text'))
     ma_dmp['contact'] = {'name': name, 'mbox': email}
     # create an entry for project start / end
-    project_start = get_val(rdmo, '/project/schedule/project_start', 0, 0, 'text')
-    project_end = get_val(rdmo, '/project/schedule/project_end', 0, 0, 'text')
+    project_start = get_val(rdmo, '/schedule/project_start', 0, 0, 'text')
+    project_end = get_val(rdmo, '/schedule/project_end', 0, 0, 'text')
     project = {}
     if project_start is not None:
         project['project_start'] = project_start
