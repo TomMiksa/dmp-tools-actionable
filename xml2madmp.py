@@ -149,6 +149,99 @@ def name_email(text):
     email = (', ').join([w for w in words if '@' in w])
     return name, email
 
+def has_ethical_issues(rdmo):
+    """Scans the information in the RDMO data for ethical issues.
+
+    Returns:
+        A string of either 'yes' if one of the datasets indicates issues,
+        'no' if all datasets indicate no issues, and 'unknown' if at least one
+        dataset did not answer the question."""
+
+    all_no = True
+    for i in rdmo_datasets(rdmo):
+        personal_data = get_val(
+            rdmo,
+            '/dataset/sensitive_data/personal_data_yesno/yesno',
+            i,
+            0,
+            'option')
+        sensitive_data = get_val(rdmo, '/dataset/sensitive_data/other/yesno', i, 0, 'option')
+        if personal_data is not None and personal_data == 'yes':
+            return "yes"
+        if sensitive_data is not None and sensitive_data == 'yes':
+            return "yes"
+        if personal_data is None or sensitive_data is None:
+            all_no = False
+    return "no" if all_no else "unknown"
+
+def get_dataset_entry(rdmo, i):
+    """Constructs the object for a dataset of the maDMP."""
+
+    title = get_val(rdmo, '/dataset/id', i, 0, 'text')
+    dataset_type = get_val(rdmo, '/dataset/format', i, 0, 'text')
+    dataset_qa = get_val(rdmo, '/dataset/quality_assurance', i, 0, 'text')
+    dataset = {'title': title, 'type': dataset_type}
+    personal_data = get_val(
+        rdmo,
+        '/dataset/sensitive_data/personal_data_yesno/yesno',
+        i,
+        0,
+        'option')
+    sensitive_data = get_val(rdmo, '/dataset/sensitive_data/other/yesno', i, 0, 'option')
+    if personal_data is None:
+        dataset['personal_data'] = 'unknown'
+    else:
+        dataset['personal_data'] = personal_data
+    if sensitive_data is None:
+        dataset['sensitive_data'] = 'unknown'
+    else:
+        dataset['sensitive_data'] = sensitive_data
+    # TODO: find preservation statement
+    if dataset_qa is not None:
+        dataset['data_quality_assurance'] = dataset_qa
+    # for each dataset look for distribution
+    sharing_license = get_val(rdmo, '/dataset/sharing/sharing_license', i, 0, 'text')
+    # TODO: find sharing start date in RDMO
+    sharing_start_date = '2999-12-31T00:00:00'
+    volume = get_val(rdmo, '/dataset/size/volume', i, 0, 'text')
+    dist_desc = distribution_description(rdmo, i)
+    if sharing_license or volume or dist_desc:
+        # TODO: find a title for the distribution out of RDMO
+        distribution = {'title': title, 'license': []}
+        if dist_desc is not None:
+            distribution['description'] = dist_desc
+        if volume is not None:
+            distribution['byte_size'] = int(round(float(volume) * 1e9))
+        if sharing_license is not None:
+            distribution['license'].append({
+                'license_ref': sharing_license,
+                'start_date': sharing_start_date
+            })
+        # append distribution to dataset
+        dataset['distribution'] = distribution
+    description = dataset_description(rdmo, i)
+    if description is not None:
+        dataset['description'] = description
+    return dataset
+
+def get_costs(rdmo):
+    """Loops throup costs entries in the RDMO representation."""
+
+    costs = []
+    for key in rdmo:
+        if key.startswith('/project/costs'):
+            cost_type = key.split('/')[-1]
+            if cost_type in ['personnel', 'non_personnel']:
+                continue
+            cost_type = key[14:]
+            cost_val = get_val(rdmo, key, 0, 0, 'text')
+            cost = {
+                'title': cost_type,
+                'cost_value': cost_val
+            }
+            costs.append(cost)
+    return costs
+
 def get_ma_dmp(rdmo):
     """Constructs an in-memory Python version of the maDMP.
 
@@ -162,46 +255,30 @@ def get_ma_dmp(rdmo):
     ma_dmp['language'] = 'en'
     ma_dmp['created'] = rdmo['created']
     ma_dmp['modified'] = rdmo['updated']
-    # TODO: check for ethical issues (loop through sensitive data)
+    ma_dmp['ethical_issues_exist'] = has_ethical_issues(rdmo)
     # extract email from name / email field
     name, email = name_email(get_val(rdmo, '/coordination/name', 0, 0, 'text'))
     ma_dmp['contact'] = {'name': name, 'mbox': email}
+    # create an entry for project start / end
+    project_start = get_val(rdmo, '/project/schedule/project_start', 0, 0, 'text')
+    project_end = get_val(rdmo, '/project/schedule/project_end', 0, 0, 'text')
+    project = {}
+    if project_start is not None:
+        project['project_start'] = project_start
+    if project_end is not None:
+        project['project_end'] = project_end
+    if project:
+        ma_dmp['project'] = project
+    # get costs entry
+    costs = get_costs(rdmo)
+    if costs:
+        ma_dmp['cost'] = costs
+    # loop through datasets
     ma_dmp['dataset'] = []
     # for each dataset create an entry
     for i in rdmo_datasets(rdmo):
-        title = get_val(rdmo, '/dataset/id', i, 0, 'text')
-        dataset_type = get_val(rdmo, '/dataset/format', i, 0, 'text')
-        dataset_qa = get_val(rdmo, '/dataset/quality_assurance', i, 0, 'text')
-        dataset = {'title': title, 'type': dataset_type}
-        # TODO: find if personal / sensitive data is in data set
-        # TODO: find preservation statement
-        if dataset_qa is not None:
-            dataset['data_quality_assurance'] = dataset_qa
-        # for each dataset look for distribution
-        sharing_license = get_val(rdmo, '/dataset/sharing/sharing_license', i, 0, 'text')
-        # TODO: find sharing start date in RDMO
-        sharing_start_date = '2999-12-31T00:00:00'
-        volume = get_val(rdmo, '/dataset/size/volume', i, 0, 'text')
-        dist_desc = distribution_description(rdmo, i)
-        if sharing_license or volume or dist_desc:
-            # TODO: find a title for the distribution out of RDMO
-            distribution = {'title': title, 'license': []}
-            if dist_desc is not None:
-                distribution['description'] = dist_desc
-            if volume is not None:
-                distribution['byte_size'] = int(round(float(volume) * 1e9))
-            if sharing_license is not None:
-                distribution['license'].append({
-                    'license_ref': sharing_license,
-                    'start_date': sharing_start_date
-                })
-            # append distribution to dataset
-            dataset['distribution'] = distribution
-        description = dataset_description(rdmo, i)
-        if description is not None:
-            dataset['description'] = description
         # append dataset to list of datasets
-        ma_dmp['dataset'].append(dataset)
+        ma_dmp['dataset'].append(get_dataset_entry(rdmo, i))
     return ma_dmp
 
 def main(argv):
