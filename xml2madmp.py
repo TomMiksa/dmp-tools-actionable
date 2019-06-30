@@ -144,6 +144,8 @@ def name_email(text):
     Returns:
         Tuple (name, email) extracted from the text."""
 
+    if text is None:
+        return 'Unknown', 'unknown'
     words = text.split()
     name = (' ').join([w for w in words if '@' not in w])
     email = (', ').join([w for w in words if '@' in w])
