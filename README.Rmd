@@ -57,6 +57,10 @@ Then the tool can be started with
 python3 xml2madmp.py <rdmo-export.xml> <ma-dmp.json>
 ```
 
+## License
+
+The tool is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
 # Mapping existing DMP templates to RDA DMP Common Standard
 
 For this part of the exercise we have used a two-part mapping.
@@ -75,3 +79,6 @@ We were using guidelines from the existing Horizon 2020 view which performs the 
 
 Similar issues as in the case of Horizon 2020 were encountered.
 In addition, we did not cater for the last case when no data is processed, as a DMP is then not needed at all.
+
+```{r child = 'docs/field_mapping.md'}
+```

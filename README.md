@@ -54,6 +54,12 @@ with
 
     python3 xml2madmp.py <rdmo-export.xml> <ma-dmp.json>
 
+License
+-------
+
+The tool is licensed under the [MIT
+license](https://opensource.org/licenses/MIT).
+
 Mapping existing DMP templates to RDA DMP Common Standard
 =========================================================
 
@@ -80,3 +86,158 @@ Map FWF template to RDA DMP Common Standard
 Similar issues as in the case of Horizon 2020 were encountered. In
 addition, we did not cater for the last case when no data is processed,
 as a DMP is then not needed at all.
+
+Field Mapping from RDMO to RDA DMP Common Standard
+==================================================
+
+<table>
+<thead>
+<tr class="header">
+<th>RDA DMP Field</th>
+<th>RDMO source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>title</code></td>
+<td><code>title</code></td>
+</tr>
+<tr class="even">
+<td><code>description</code></td>
+<td><code>description</code></td>
+</tr>
+<tr class="odd">
+<td><code>language</code></td>
+<td>* <em>always set to <code>en</code></em></td>
+</tr>
+<tr class="even">
+<td><code>created</code></td>
+<td><code>created</code></td>
+</tr>
+<tr class="odd">
+<td><code>modified</code></td>
+<td>* <em>latest modification date of any value</em></td>
+</tr>
+<tr class="even">
+<td><code>ethical_issues_exist</code></td>
+<td>* <em>loop through datasets</em></td>
+</tr>
+<tr class="odd">
+<td><code>contact</code></td>
+<td><code>coordination/name</code> split into name and email</td>
+</tr>
+<tr class="even">
+<td><code>project.start</code></td>
+<td><code>schedule/project_start</code></td>
+</tr>
+<tr class="odd">
+<td><code>project.end</code></td>
+<td><code>schedule/project_end</code></td>
+</tr>
+<tr class="even">
+<td><code>cost</code></td>
+<td>* <em>loop through cost-entries</em></td>
+</tr>
+<tr class="odd">
+<td><code>dataset.title</code></td>
+<td><code>dataset/id</code></td>
+</tr>
+<tr class="even">
+<td><code>dataset.type</code></td>
+<td><code>dataset/format</code></td>
+</tr>
+<tr class="odd">
+<td><code>dataset.description</code></td>
+<td>* <em>combined from various fields</em></td>
+</tr>
+<tr class="even">
+<td><code>dataset.data_quality_assurance</code></td>
+<td><code>dataset/quality_assurance</code></td>
+</tr>
+<tr class="odd">
+<td><code>dataset.personal_data</code></td>
+<td><code>dataset/sensitive_data/personal_data_yesno/yesno</code></td>
+</tr>
+<tr class="even">
+<td><code>dataset.sensitive_data</code></td>
+<td><code>dataset/sensitive_data/other/yesno</code></td>
+</tr>
+<tr class="odd">
+<td><code>dataset.distribution.description</code></td>
+<td>* <em>combined from various fields</em></td>
+</tr>
+<tr class="even">
+<td><code>dataset.distribution.license.license_ref</code></td>
+<td><code>dataset/sharing/sharing_license</code></td>
+</tr>
+<tr class="odd">
+<td><code>dataset.distribution.license.start_date</code></td>
+<td><code>dataset/data_publication_date</code></td>
+</tr>
+</tbody>
+</table>
+
+Special Cases
+-------------
+
+### Language Field `language`
+
+As the RDMO data model does not have a field for the language of a
+project this field is set to English for all DMPs.
+
+### Field `modified`
+
+In RDMO, the field `updated` more or less corresponds to the `modified`
+field in the RDA DMP Common Standard. However, since RDMO uses a
+relational database model, the `updated` field of a project is only
+changed if the fields in the corresponding table are updated.
+
+To get a more natural interpretation of the last modification date the
+tool is looking for the latest modification of any field or value in the
+RDMO data and uses this value as the `modified` field in the RDA DMP
+Common Standard.
+
+### Field `ethical_issues_exist`
+
+The tool uses the following logic:
+
+-   If for *all* datasets the questions for both personal data issues
+    and sensitive data issues are answered with *no* then this field is
+    set to `no`.
+-   If for *at least one* dataset one of the questions is answered with
+    *yes* then the field is set to `yes`.
+-   Otherwise, if the question is never answered with *yes* but is not
+    answered for at least one dataset, the field is set to `unknown`.
+
+### Substructure `cost`
+
+All cost-related entries in RDMO are parsed. The entries are added as
+sub-entries to the `cost` element, using the following translation
+logic:
+
+-   `title`: This is mapped to the key in RDMO, e.g.
+    `ipr/non_personnel`.
+-   `cost_value`: This is mapped to the value in RDMO.
+
+### Field `dataset.description`
+
+Since there are fields in RDMO with no direct mapping to RDA DMP Common
+Standard, the field `dataset.description` is filled with data from other
+RDMO fields:
+
+-   `dataset/description`
+-   `dataset/interoperability`
+-   `dataset/creation_methods`
+-   `dataset/metadata`
+
+### Field `dataset.distribution.description`
+
+Since there are fields in RDMO with no direct mapping to RDA DMP Common
+Standard, the field `dataset.distribution.description` is filled with
+data from other RDMO fields:
+
+-   `dataset/size/number_files`
+-   `dataset/versioning_strategy`
+-   `dataset/structure`
+-   `dataset/reuse_scenario`
+-   `dataset/sharing/conditions`
