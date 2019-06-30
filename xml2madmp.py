@@ -174,6 +174,34 @@ def has_ethical_issues(rdmo):
             all_no = False
     return "no" if all_no else "unknown"
 
+def get_security(rdmo, index):
+    """Loops through security entries in the RDMO representation."""
+
+    securities = []
+    for key in rdmo:
+        title = None
+        if key.startswith('/project/dataset/data_security'):
+            if key == '/project/dataset/data_security/security_measures':
+                title = 'Provisions in Place for Data Security'
+            if key == '/project/dataset/data_security/access_permissions':
+                title = 'People with access right'
+            if key == '/project/dataset/data_security/backups':
+                title = 'Data Backup'
+            if key == '/project/dataset/data_security/backup_responsible/name':
+                title = 'Responsible Person for Data Backup'
+        vals = None
+        if title is not None:
+            vals = get_val(rdmo, key, index)
+        if vals is not None:
+            for idx in vals:
+                if 'text' in vals[idx]:
+                    security = {
+                        'title': title,
+                        'description': vals[idx]['text']
+                    }
+                    securities.append(security)
+    return securities
+
 def get_dataset_entry(rdmo, i):
     """Constructs the object for a dataset of the maDMP."""
 
@@ -201,8 +229,7 @@ def get_dataset_entry(rdmo, i):
         dataset['data_quality_assurance'] = dataset_qa
     # for each dataset look for distribution
     sharing_license = get_val(rdmo, '/dataset/sharing/sharing_license', i, 0, 'text')
-    # TODO: find sharing start date in RDMO
-    sharing_start_date = '2999-12-31T00:00:00'
+    sharing_start_date = get_val(rdmo, '/project/dataset/data_publication_date', i, 0, 'text')
     volume = get_val(rdmo, '/dataset/size/volume', i, 0, 'text')
     dist_desc = distribution_description(rdmo, i)
     if sharing_license or volume or dist_desc:
@@ -222,10 +249,14 @@ def get_dataset_entry(rdmo, i):
     description = dataset_description(rdmo, i)
     if description is not None:
         dataset['description'] = description
+    # get security entries
+    securities = get_security(rdmo, i)
+    if securities:
+        dataset['security'] = securities
     return dataset
 
 def get_costs(rdmo):
-    """Loops throup costs entries in the RDMO representation."""
+    """Loops through costs entries in the RDMO representation."""
 
     costs = []
     for key in rdmo:
