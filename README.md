@@ -5,6 +5,11 @@ Make DMP Tools Actionable
 -   Gerald Weber, 0125536
 -   Helmuth Breitenfellner, 08725866
 
+Link to GitHub Pages
+====================
+
+<https://helmuthb.github.io/dmp-tools-actionable/>
+
 Set Up Instance of RDMO
 =======================
 

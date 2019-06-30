@@ -15,6 +15,10 @@ knitr::opts_chunk$set(echo = TRUE)
 * Gerald Weber, 0125536
 * Helmuth Breitenfellner, 08725866
 
+# Link to GitHub Pages
+
+[https://helmuthb.github.io/dmp-tools-actionable/](https://helmuthb.github.io/dmp-tools-actionable/)
+
 # Set Up Instance of RDMO
 
 We have been setting up an instance of RDMO on a virtualized environment, using Docker.
