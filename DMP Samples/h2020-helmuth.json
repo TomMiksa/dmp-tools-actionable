@@ -1,0 +1,86 @@
+{
+    "title": "h2020-helmuth",
+    "description": "Comparison of US wheat yield with middle-aged marriages in Salzburg",
+    "language": "en",
+    "created": "2019-06-30T13:34:17.116635+02:00",
+    "modified": "2019-06-30T18:20:24.416539+02:00",
+    "ethical_issues_exist": "unknown",
+    "contact": {
+        "name": "Unknown",
+        "mbox": "unknown"
+    },
+    "cost": [
+        {
+            "title": "ation/cover_how",
+            "cost_value": null
+        }
+    ],
+    "dataset": [
+        {
+            "title": "Salzburg middle-aged marriages",
+            "type": "structured relational data in CSV format",
+            "personal_data": "unknown",
+            "sensitive_data": "unknown",
+            "distribution": {
+                "title": "Salzburg middle-aged marriages",
+                "license": [],
+                "description": "Sharing Conditions: CC-BY-3\nVersioning Strategy: none\nReuse: Everyone interested in marriage patterns of Salzburg citizens",
+                "byte_size": 19600
+            },
+            "security": [
+                {
+                    "title": "People with access right",
+                    "description": "None, open access"
+                },
+                {
+                    "title": "Provisions in Place for Data Security",
+                    "description": "open access"
+                }
+            ]
+        },
+        {
+            "title": "US wheat yield",
+            "type": "structured relational data in XLS format",
+            "personal_data": "unknown",
+            "sensitive_data": "unknown",
+            "distribution": {
+                "title": "US wheat yield",
+                "license": [],
+                "description": "Sharing Conditions: CC-0\nVersioning Strategy: none\nReuse: Everyone interested in US wheat output",
+                "byte_size": 1240000
+            },
+            "security": [
+                {
+                    "title": "People with access right",
+                    "description": "None, open access"
+                },
+                {
+                    "title": "Provisions in Place for Data Security",
+                    "description": "open access"
+                }
+            ]
+        },
+        {
+            "title": "Combined",
+            "type": "structured relational data in CSV format",
+            "personal_data": "unknown",
+            "sensitive_data": "unknown",
+            "distribution": {
+                "title": "Combined",
+                "license": [],
+                "description": "Sharing Conditions: CC-BY-3\nVersioning Strategy: none\nReuse: Everyone interested in correlation between Salzburg middle-age marriages and US wheat yield",
+                "byte_size": 6000
+            },
+            "security": [
+                {
+                    "title": "People with access right",
+                    "description": "None, open access"
+                },
+                {
+                    "title": "Provisions in Place for Data Security",
+                    "description": "open access"
+                }
+            ]
+        }
+    ]
+}

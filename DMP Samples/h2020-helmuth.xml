@@ -90,7 +90,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:24.764521+02:00</created>
-			<updated>2019-06-30T17:48:07.671462+02:00</updated>
+			<updated>2019-06-30T18:20:24.333149+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name"/>
@@ -101,7 +101,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:38.228636+02:00</created>
-			<updated>2019-06-30T17:48:07.864048+02:00</updated>
+			<updated>2019-06-30T18:20:24.393361+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name"/>
@@ -112,7 +112,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:45.012299+02:00</created>
-			<updated>2019-06-30T17:48:09.191167+02:00</updated>
+			<updated>2019-06-30T18:20:24.412164+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_publication_date"/>
@@ -222,7 +222,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:24.755227+02:00</created>
-			<updated>2019-06-30T17:48:07.612062+02:00</updated>
+			<updated>2019-06-30T18:20:24.338172+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/format"/>
@@ -233,7 +233,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:38.219975+02:00</created>
-			<updated>2019-06-30T17:48:07.774457+02:00</updated>
+			<updated>2019-06-30T18:20:24.380557+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/format"/>
@@ -244,7 +244,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:44.995715+02:00</created>
-			<updated>2019-06-30T17:48:07.984500+02:00</updated>
+			<updated>2019-06-30T18:20:24.416539+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
@@ -420,7 +420,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:24.756476+02:00</created>
-			<updated>2019-06-30T17:48:07.639314+02:00</updated>
+			<updated>2019-06-30T18:20:24.351146+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/origin"/>
@@ -431,7 +431,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:38.233460+02:00</created>
-			<updated>2019-06-30T17:48:07.817676+02:00</updated>
+			<updated>2019-06-30T18:20:24.383338+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/origin"/>
@@ -442,7 +442,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:44.996608+02:00</created>
-			<updated>2019-06-30T17:48:08.021771+02:00</updated>
+			<updated>2019-06-30T18:20:24.413118+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/pids/system"/>
@@ -684,7 +684,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:24.759287+02:00</created>
-			<updated>2019-06-30T18:08:52.809115+02:00</updated>
+			<updated>2019-06-30T18:20:24.344965+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario"/>
@@ -695,7 +695,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:38.243334+02:00</created>
-			<updated>2019-06-30T18:08:52.782355+02:00</updated>
+			<updated>2019-06-30T18:20:24.386943+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario"/>
@@ -706,7 +706,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:45.055505+02:00</created>
-			<updated>2019-06-30T18:08:52.802457+02:00</updated>
+			<updated>2019-06-30T18:20:24.400463+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other/description"/>
@@ -910,12 +910,12 @@
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size/volume"/>
 			<set_index>0</set_index>
 			<collection_index>0</collection_index>
-			<text>0.0000196 GB</text>
+			<text>0.0000196</text>
 			<option/>
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:24.755542+02:00</created>
-			<updated>2019-06-30T17:48:07.687636+02:00</updated>
+			<updated>2019-06-30T18:20:24.339747+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size/volume"/>
@@ -926,7 +926,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:38.225709+02:00</created>
-			<updated>2019-06-30T17:48:07.888558+02:00</updated>
+			<updated>2019-06-30T18:20:24.392295+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size/volume"/>
@@ -937,7 +937,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:45.040324+02:00</created>
-			<updated>2019-06-30T17:48:09.184975+02:00</updated>
+			<updated>2019-06-30T18:20:24.414381+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/software_documentation"/>
@@ -1014,7 +1014,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:24.747878+02:00</created>
-			<updated>2019-06-30T17:48:07.575046+02:00</updated>
+			<updated>2019-06-30T18:20:24.335466+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_description"/>
@@ -1025,7 +1025,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:38.237522+02:00</created>
-			<updated>2019-06-30T17:48:07.744400+02:00</updated>
+			<updated>2019-06-30T18:20:24.357909+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_description"/>
@@ -1036,7 +1036,7 @@
 			<value_type>text</value_type>
 			<unit/>
 			<created>2019-06-30T17:39:44.991161+02:00</created>
-			<updated>2019-06-30T17:48:07.950594+02:00</updated>
+			<updated>2019-06-30T18:20:24.406595+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_technology"/>
@@ -1112,8 +1112,8 @@
 			<option/>
 			<value_type>boolean</value_type>
 			<unit/>
-			<created>2019-06-30T18:05:58.357109+02:00</created>
-			<updated>2019-06-30T18:07:14.728925+02:00</updated>
+			<created>2019-06-30T18:04:57.389855+02:00</created>
+			<updated>2019-06-30T18:04:57.389863+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
@@ -1123,8 +1123,8 @@
 			<option/>
 			<value_type>boolean</value_type>
 			<unit/>
-			<created>2019-06-30T18:04:57.389855+02:00</created>
-			<updated>2019-06-30T18:04:57.389863+02:00</updated>
+			<created>2019-06-30T18:05:58.357109+02:00</created>
+			<updated>2019-06-30T18:07:14.728925+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
@@ -1152,23 +1152,23 @@
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
 			<set_index>2</set_index>
 			<collection_index>0</collection_index>
-			<text/>
-			<option/>
-			<value_type>boolean</value_type>
-			<unit/>
-			<created>2019-06-30T18:04:57.455280+02:00</created>
-			<updated>2019-06-30T18:04:57.455286+02:00</updated>
-		</value>
-		<value>
-			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
-			<set_index>2</set_index>
-			<collection_index>0</collection_index>
 			<text>0</text>
 			<option/>
 			<value_type>boolean</value_type>
 			<unit/>
 			<created>2019-06-30T18:06:00.061224+02:00</created>
 			<updated>2019-06-30T18:07:14.818161+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/data_access_committee"/>
+			<set_index>2</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<value_type>boolean</value_type>
+			<unit/>
+			<created>2019-06-30T18:04:57.455280+02:00</created>
+			<updated>2019-06-30T18:04:57.455286+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/contact_person/name"/>
@@ -1244,8 +1244,8 @@
 			<option/>
 			<value_type>text</value_type>
 			<unit/>
-			<created>2019-06-30T17:52:28.183361+02:00</created>
-			<updated>2019-06-30T17:53:01.135272+02:00</updated>
+			<created>2019-06-30T18:00:03.828354+02:00</created>
+			<updated>2019-06-30T18:00:09.255401+02:00</updated>
 		</value>
 		<value>
 			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
@@ -1255,8 +1255,8 @@
 			<option/>
 			<value_type>text</value_type>
 			<unit/>
-			<created>2019-06-30T18:00:03.828354+02:00</created>
-			<updated>2019-06-30T18:00:09.255401+02:00</updated>
+			<created>2019-06-30T17:52:28.183361+02:00</created>
+			<updated>2019-06-30T17:53:01.135272+02:00</updated>
 		</value>
 	</values>
 	<created>2019-06-30T13:34:17.116635+02:00</created>
